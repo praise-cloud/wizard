@@ -17,29 +17,28 @@ const CarsouelNaviagtion = ({
         >
           <IoArrowBackOutline />
         </button>
-        </div>
-
-
-            {/* Dots to indicate the current slide */}
-            <div className="flex gap-2">
-                {Array.from({ length: totalSlides }).map((_, index) => (
-                <div
-                    key={index}
-                    className={`w-3 h-3 rounded-full ${
-                    index === currentSlide ? "bg-brand-primary" : "bg-gray-300"
-                    }`}
-                />
-                ))}
-            </div>
-
-        <div className="flex justify-between w-full px-10v">
-            <button className="text-white p-2 rounded-full text-3xl" onClick={nextSlide}
-            >
-            <IoArrowForwardOutline />
-            </button>
       </div>
 
+      {/* Dots to indicate the current slide */}
+      <div className="flex gap-2">
+        {Array.from({ length: totalSlides }).map((_, index) => (
+          <div
+            key={index}
+            className={`w-3 h-3 rounded-full ${
+              index === currentSlide ? "bg-brand-primary" : "bg-gray-300"
+            }`}
+          />
+        ))}
+      </div>
 
+      <div className="flex justify-between w-full px-10v">
+        <button
+          className="text-white p-2 rounded-full text-3xl"
+          onClick={nextSlide}
+        >
+          <IoArrowForwardOutline />
+        </button>
+      </div>
     </div>
   );
 };

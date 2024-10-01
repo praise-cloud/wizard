@@ -9,24 +9,24 @@ import Zoom from "../../assets/Images/zoom.svg";
 const FlickerLogos = () => {
   return (
     <>
-      <div className="flex flex-wrap mx-auto px-5 justify-center items-center my-6 gap-5">
-        <div className="flex">
-          <img src={Amazon} alt="Amazon logo" />
+      <div className="flex flex-wrap justify-center items-center gap-6 mx-auto px-5 my-6">
+        <div className="flex justify-center w-1/3 sm:w-1/4 lg:w-1/6">
+          <img src={Amazon} alt="Amazon logo" className="h-10 w-auto" />
         </div>
-        <div className="flex">
-          <img src={Dribble} alt="Dribble logo" />
+        <div className="flex justify-center w-1/3 sm:w-1/4 lg:w-1/6">
+          <img src={Dribble} alt="Dribble logo" className="h-10 w-auto" />
         </div>
-        <div className="flex">
-          <img src={Hubspot} alt="Hubspot logo" />
+        <div className="flex justify-center w-1/3 sm:w-1/4 lg:w-1/6">
+          <img src={Hubspot} alt="Hubspot logo" className="h-10 w-auto" />
         </div>
-        <div className="flex">
-          <img src={Netflix} alt="Netflix logo" />
+        <div className="flex justify-center w-1/3 sm:w-1/4 lg:w-1/6">
+          <img src={Netflix} alt="Netflix logo" className="h-10 w-auto" />
         </div>
-        <div className="flex">
-          <img src={Notion} alt="Notion logo" />
+        <div className="flex justify-center w-1/3 sm:w-1/4 lg:w-1/6">
+          <img src={Notion} alt="Notion logo" className="h-10 w-auto" />
         </div>
-        <div className="flex">
-          <img src={Zoom} alt="Zoom's logo" />
+        <div className="flex justify-center w-1/3 sm:w-1/4 lg:w-1/6">
+          <img src={Zoom} alt="Zoom logo" className="h-10 w-auto" />
         </div>
       </div>
     </>

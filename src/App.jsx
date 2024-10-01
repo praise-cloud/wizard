@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <Hero />
-      <FlickerLogos />
+      {/* <FlickerLogos />
       <Services />
       <CaseStudy />
       <Ourworks />
       <Team />
-      <Testimonial />
+      <Testimonial /> */}
     </>
   );
 }

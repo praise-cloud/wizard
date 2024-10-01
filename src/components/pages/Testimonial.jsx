@@ -59,15 +59,14 @@ const Testimonial = () => {
             </p>
           </div>
 
-        {/* Carousel Navigation */}
-        <CarsouelNaviagtion
-          currentSlide={currentIndex}
-          totalSlides={client_testimonials.length}
-          nextSlide={nextTestimonial}
-          prevSlide={prevTestimonial}
-        />
+          {/* Carousel Navigation */}
+          <CarsouelNaviagtion
+            currentSlide={currentIndex}
+            totalSlides={client_testimonials.length}
+            nextSlide={nextTestimonial}
+            prevSlide={prevTestimonial}
+          />
         </div>
-
       </div>
     </>
   );
